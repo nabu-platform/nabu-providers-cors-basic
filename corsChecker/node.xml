@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.services.vm.VMServiceManager" created="2020-05-15T14:15:45.708+02:00" lastModified="2022-11-28T09:23:57.550+01:00" leaf="true" version="34">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+    <references>be.nabu.eai.module.web.application.api.CORSHandler.check</references>
+    <references>be.nabu.eai.module.web.application.api.CORSResult</references>
+    <references>nabu.providers.cors.basic.crud.corsRule.types.output</references>
+    <references>nabu.utils.Uri.toComponents</references>
+    <references>java.lang.Boolean</references>
+    <references>java.lang.String</references>
+    <references>java.net.URI</references>
+    <references>nabu.providers.cors.basic.crud.corsRule.services.list</references>
+    <references>nabu.utils.String.split</references>
+</node>

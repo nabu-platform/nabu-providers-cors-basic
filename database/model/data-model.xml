@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataModel>
+    <entries>
+        <synchronize>true</synchronize>
+        <type>nabu.providers.cors.basic.database.types.corsRule</type>
+        <x>502</x>
+        <y>292</y>
+    </entries>
+</dataModel>

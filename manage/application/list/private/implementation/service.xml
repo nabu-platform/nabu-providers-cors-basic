@@ -1,0 +1,40 @@
+<sequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		disabled="false"
+		id="51c51546-f956-4be2-b644-c1d6e5a91480"
+		lineNumber="1">
+	<steps xsi:type="be.nabu.libs.services.vm.step.Map"
+			disabled="false"
+			id="3ff99534-0927-4211-a2ca-ed70887accbd"
+			lineNumber="2">
+		<steps xsi:type="be.nabu.libs.services.vm.step.Invoke"
+				disabled="false"
+				id="4f4e6ff4-fe24-4132-b546-5e89ade050f0"
+				serviceId="nabu.utils.reflection.Node.dependencies"
+				resultName="result1c65a392d8e64baba2496e0149c81874"
+				temporaryMapping="true"
+				x="141"
+				y="167"
+				invocationOrder="0"
+				asynchronous="false"
+				recache="false">
+			<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+					disabled="false"
+					id="235f4cd3-ffea-47b3-aea6-899a654da321"
+					mask="false"
+					optional="false"
+					fixedValue="true">
+				<from>nabu.providers.cors.basic.corsChecker</from>
+				<to>id</to>
+			</steps>
+		</steps>
+		<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+				disabled="false"
+				id="1a76f768-e74f-409e-9b96-6e84eee9ad48"
+				mask="true"
+				optional="false"
+				fixedValue="false">
+			<from>result1c65a392d8e64baba2496e0149c81874/nodes[artifactClass == "be.nabu.eai.module.web.application.WebApplication"]</from>
+			<to>output/content/applications</to>
+		</steps>
+	</steps>
+</sequence>

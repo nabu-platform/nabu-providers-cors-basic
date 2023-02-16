@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.web.component.WebComponentManager" created="2022-11-30T10:26:01.387+01:00" lastModified="2022-12-02T13:26:54.128+01:00" leaf="true" version="4">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+    <references>nabu.providers.cors.basic.manage.crud.corsRule</references>
+    <references>nabu.providers.cors.basic.manage.application.list</references>
+</node>

@@ -173,6 +173,15 @@
 				<from>=rule/allow &amp;&amp; rule/origin == null</from>
 				<to>output/cors/allowedAll</to>
 			</steps>
+			<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+					disabled="false"
+					id="617b57934a4549358437de4a522f0a73"
+					mask="false"
+					optional="false"
+					fixedValue="false">
+				<from>rule/allowCredentials</from>
+				<to>output/cors/allowedCredentials</to>
+			</steps>
 		</steps>
 		<query>rules</query>
 	</steps>

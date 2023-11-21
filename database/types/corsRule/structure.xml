@@ -5,4 +5,5 @@
     <field comment="Path regex match" minOccurs="0" name="path" type="java.lang.String"/>
     <field comment="null for all origins, otherwise a regex" minOccurs="0" name="origin" type="java.lang.String"/>
     <field comment="You can specifically allow (whitelist) or disallow (blacklist)" name="allow" type="java.lang.Boolean"/>
+    <field comment="Credentials are cookies, authorization headers, or TLS client certificates" minOccurs="0" name="allowCredentials" type="java.lang.Boolean"/>
 </structure>
